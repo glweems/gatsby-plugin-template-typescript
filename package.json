@@ -1,6 +1,6 @@
 {
     "name": "gatsby-plugin-template-typescript",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "a starter repo for creating gatsby plugins in typescript",
     "main": "gatsby-node.js",
     "scripts": {
@@ -30,11 +30,15 @@
         "gatsby": ">=2"
     },
     "devDependencies": {
-        "@types/node": "^14.0.12",
-        "@typescript-eslint/eslint-plugin": "^1.13.0",
-        "@typescript-eslint/parser": "^1.13.0",
-        "eslint": "^6.1.0",
-        "eslint-plugin-react": "^7.14.3",
-        "typescript": "^3.9.5"
+        "@types/node": "^14.0.23",
+        "@typescript-eslint/eslint-plugin": "^3.6.1",
+        "@typescript-eslint/parser": "^3.6.1",
+        "eslint": "^7.4.0",
+        "eslint-plugin-react": "^7.20.3",
+        "gatsby": "^2.24.2",
+        "typescript": "^3.9.6"
+    },
+    "dependencies": {
+        "@types/react-dom": "^16.9.8"
     }
 }

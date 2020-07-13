@@ -1,11 +1,16 @@
 {
-    "compilerOptions": {
-        "outDir": ".",
-        "sourceMap": true,
-        "strict": true,
-        "module": "commonjs",
-        "target": "esnext"
-    },
-    "include": ["./src/**/*"],
-    "exclude": []
+  "compilerOptions": {
+    "target": "ES2018" /* or at least ES2015 */,
+    "module": "ESNext" /* or at least ES2015 */,
+    "lib": ["dom"] /* <-- required! */,
+    "jsx": "preserve" /* <-- required! */,
+    "moduleResolution": "node",
+    "types": ["node"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "pretty": true,
+    "typeRoots": ["src/types.d.ts"]
+  }
 }
